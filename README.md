@@ -1,6 +1,6 @@
 ## 🌐 Live Portfolio
 
-🚀 **Vercel Portfolio:** [Visit My Portfolio](https://portfolio-eight-dun-63.vercel.app)
+🚀 **Vercel Portfolio:** [Visit My Portfolio](https://shankar-belavi-porfolio.vercel.app)
 
 🌍 **GitHub Pages:** [View Portfolio on GitHub Pages](https://shankarbelavi.github.io/portfolio/)
 
