@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shankar Shivalingesh Belavi | Software Developer</title>
+    <!-- PWA Meta Tags -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0f172a">
+    <link rel="apple-touch-icon" href="assets/photo.jpg">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="status-badge">
+                <span class="status-dot"></span>
+                Open to work
+            </div>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
+                <i class="fas fa-moon icon-moon"></i>
+                <i class="fas fa-sun icon-sun"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container hero-container">
+                <div class="hero-image-wrapper">
+                    <img src="assets/photo.jpg" alt="Shankar Shivalingesh Belavi" class="profile-photo">
+                    <div class="image-backdrop"></div>
+                </div>
+                
+                <div class="hero-content">
+                    <span class="greeting">Hello, I'm</span>
+                    <div class="name-plate">
+                        <h1 class="name">Shankar Shivalingesh Belavi</h1>
+                    </div>
+                    <h2 class="tagline">Software Engineer</h2>
+                    <p class="description">
+                        Code. Learn. Innovate. Building the future through Software Development
+                    </p>
+
+                    <div class="contact-links">
+                        <a href="https://www.linkedin.com/in/shankar-belavi" target="_blank" class="social-btn" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/shankarbelavi" target="_blank" class="social-btn" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:shankarbelavi30@gmail.com" class="social-btn" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+917899296623" class="social-btn" aria-label="Phone">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+
+                    <a href="assets/Shankar_Belavi_Resume.pdf" download="Shankar_Belavi_Resume.pdf" target="_blank" class="download-resume-btn">
+                        <i class="fas fa-file-download"></i> DOWNLOAD MY RESUME
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section" id="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="designed-box">
+                        <div class="section-badge">Turning Ideas into Intelligent Solutions</div>
+                        <div class="about-text">
+                        <p>A passionate and aspiring <strong>Software Engineer</strong> with a strong foundation in <strong>Computer Science</strong> and a keen interest in building innovative and impactful software solutions. I enjoy solving complex problems and transforming ideas into efficient, reliable, and user-focused applications.</p>
+                        <p>Throughout my academic journey, I have worked on diverse projects that have strengthened my understanding of <strong>software development principles, modern technologies, and industry best practices</strong>. I am particularly interested in <strong>Software Development, Machine Learning, and Artificial Intelligence</strong>, and I enjoy continuously exploring new technologies to expand my skills.</p>
+                        <p>As a quick learner and problem solver, I am always ready to take on new challenges, learn from every experience, and grow as a developer. My goal is to build intelligent, scalable, and meaningful technology solutions that create real-world impact.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Highlights Section -->
+        <section class="section" id="highlights">
+            <div class="container">
+                <div class="highlights-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fas fa-star"></i></div>
+                        <h3 class="stat-title">Interests</h3>
+                        <p class="stat-desc">Software Development, AI, Machine Learning, Web Technologies</p>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fas fa-laptop-code"></i></div>
+                        <h3 class="stat-title">Hackathon Participations</h3>
+                        <p class="stat-desc">Active participant in competitive hackathons and coding challenges.</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fas fa-code-commit"></i></div>
+                        <h3 class="stat-title">30+ Open Source Commits</h3>
+                        <p class="stat-desc">Contributing to open source repositories and giving back to the community.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section" id="skills">
+            <div class="container">
+                
+                <!-- Top Header -->
+                <div class="section-clean-header">
+                    <h2 class="clean-header-title">TECHNICAL EXPERTISE</h2>
+                    <div class="clean-header-underline"></div>
+                </div>
+                
+                <!-- Main Component Grid -->
+                <div class="skills-premium-grid">
+                    
+                    <!-- Category 1 -->
+                    <div class="premium-skill-card" style="--card-accent: #00d2ff;">
+                        <div class="premium-card-header">
+                            <div class="card-icon"><i class="fas fa-code"></i></div>
+                            <h3 class="card-title">Programming Languages</h3>
+                            <div class="card-line"></div>
+                        </div>
+                        <div class="premium-tags">
+                            <span class="premium-tag"><i class="fab fa-python" style="color: #3776AB"></i> Python</span>
+                            <span class="premium-tag"><i class="fab fa-java" style="color: #ED8B00"></i> Java</span>
+                            <span class="premium-tag"><i class="fas fa-c" style="color: #00599C"></i> C</span>
+                            <span class="premium-tag"><i class="fab fa-html5" style="color: #E34F26"></i> HTML</span>
+                            <span class="premium-tag"><i class="fab fa-css3-alt" style="color: #1572B6"></i> CSS</span>
+                        </div>
+                    </div>
+
+                    <!-- Category 2 -->
+                    <div class="premium-skill-card" style="--card-accent: #b721ff;">
+                        <div class="premium-card-header">
+                            <div class="card-icon"><i class="fas fa-layer-group"></i></div>
+                            <h3 class="card-title">Frameworks & Libraries</h3>
+                            <div class="card-line"></div>
+                        </div>
+                        <div class="premium-tags">
+                            <span class="premium-tag"><i class="fab fa-react" style="color: #61dafb"></i> React.js</span>
+                            <span class="premium-tag"><i class="fab fa-node-js" style="color: #68a063"></i> Node.js</span>
+                            <span class="premium-tag"><i class="fas fa-server" style="color: #fff"></i> Express.js</span>
+                            <span class="premium-tag"><i class="fas fa-bolt" style="color: #059669"></i> FastAPI</span>
+                            <span class="premium-tag"><i class="fas fa-chart-line" style="color: #F7931E"></i> Scikit-learn</span>
+                            <span class="premium-tag"><i class="fas fa-brain" style="color: #fff"></i> OpenAI API</span>
+                            <span class="premium-tag"><i class="fas fa-video" style="color: #4285F4"></i> WebRTC</span>
+                            <span class="premium-tag"><i class="fas fa-plug" style="color: #fff"></i> Socket.IO</span>
+                        </div>
+                    </div>
+
+                    <!-- Category 3 -->
+                    <div class="premium-skill-card" style="--card-accent: #00d2ff;">
+                        <div class="premium-card-header">
+                            <div class="card-icon"><i class="fas fa-database"></i></div>
+                            <h3 class="card-title">Databases</h3>
+                            <div class="card-line"></div>
+                        </div>
+                        <div class="premium-tags">
+                            <span class="premium-tag"><i class="fas fa-database" style="color: #00758f"></i> MySQL</span>
+                            <span class="premium-tag"><i class="fas fa-leaf" style="color: #4db33d"></i> MongoDB</span>
+                        </div>
+                    </div>
+
+                    <!-- Category 4 -->
+                    <div class="premium-skill-card" style="--card-accent: #b721ff;">
+                        <div class="premium-card-header">
+                            <div class="card-icon"><i class="fas fa-microchip"></i></div>
+                            <h3 class="card-title">Core CS</h3>
+                            <div class="card-line"></div>
+                        </div>
+                        <div class="premium-tags">
+                            <span class="premium-tag"><i class="fas fa-project-diagram" style="color: #fff"></i> DSA</span>
+                            <span class="premium-tag"><i class="fas fa-sitemap" style="color: #fff"></i> Algorithm Design</span>
+                            <span class="premium-tag"><i class="fas fa-cube" style="color: #fff"></i> OOP</span>
+                            <span class="premium-tag"><i class="fas fa-server" style="color: #fff"></i> DBMS</span>
+                            <span class="premium-tag"><i class="fas fa-infinity" style="color: #fff"></i> SDLC</span>
+                        </div>
+                    </div>
+
+                    <!-- Category 5 -->
+                    <div class="premium-skill-card" style="--card-accent: #f6ad55;">
+                        <div class="premium-card-header">
+                            <div class="card-icon"><i class="fas fa-tools"></i></div>
+                            <h3 class="card-title">Tools & Platforms</h3>
+                            <div class="card-line"></div>
+                        </div>
+                        <div class="premium-tags">
+                            <span class="premium-tag"><i class="fab fa-github" style="color: #fff"></i> Git & GitHub</span>
+                            <span class="premium-tag"><i class="fas fa-code" style="color: #007acc"></i> VS Code</span>
+                            <span class="premium-tag"><i class="fab fa-google" style="color: #4285F4"></i> Google Cloud</span>
+                            <span class="premium-tag"><i class="fas fa-cloud" style="color: #00d2ff"></i> REST APIs</span>
+                            <span class="premium-tag"><i class="fas fa-lock" style="color: #f6ad55"></i> OAuth</span>
+                            <span class="premium-tag"><i class="fas fa-envelope" style="color: #a0aec0"></i> SMTP</span>
+                        </div>
+                    </div>
+
+                    <!-- Category 6 -->
+                    <div class="premium-skill-card" style="--card-accent: #ed64a6;">
+                        <div class="premium-card-header">
+                            <div class="card-icon"><i class="fas fa-users"></i></div>
+                            <h3 class="card-title">Soft Skills</h3>
+                            <div class="card-line"></div>
+                        </div>
+                        <div class="premium-tags">
+                            <span class="premium-tag"><i class="fas fa-user-tie" style="color: #fff"></i> Leadership</span>
+                            <span class="premium-tag"><i class="fas fa-sync" style="color: #fff"></i> Adaptability</span>
+                            <span class="premium-tag"><i class="fas fa-comments" style="color: #fff"></i> Communication</span>
+                            <span class="premium-tag"><i class="fas fa-users" style="color: #fff"></i> Teamwork</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section" id="projects">
+            <div class="container">
+                <!-- Top Header -->
+                <div class="section-clean-header">
+                    <h2 class="clean-header-title">Projects & Experience</h2>
+                    <div class="clean-header-underline"></div>
+                </div>
+                <div class="projects-grid">
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">FarmConnect</h3>
+                        </div>
+                        <div class="project-inner-content">
+                            <h4 class="project-subtitle">Intelligent Yield Forecasting and Secure Farm-to-Fork Tracking Framework</h4>
+                            <div class="project-tech">
+                                <span>React.js</span><span>FastAPI</span><span>Python</span><span>MongoDB</span><span>Scikit-learn</span><span>Blockchain</span><span>QR Code</span>
+                            </div>
+                            <ul class="project-bullets">
+                                <li>Built a full-stack smart agriculture platform combining machine learning, NDVI-based remote sensing, an AI chatbot, and blockchain technology for farm-to-fork supply chain transparency.</li>
+                                <li>Developed crop recommendation models using Random Forest and Decision Tree algorithms, and yield prediction models using Linear Regression and Random Forest Regression.</li>
+                                <li>Engineered a QR-code and blockchain-based traceability system for secure, tamper-proof supply-chain tracking.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">BlockLearn</h3>
+                        </div>
+                        <div class="project-inner-content">
+                            <h4 class="project-subtitle">AI-Enhanced Gamified Skill Swap Platform</h4>
+                            <div class="project-tech">
+                                <span>React.js</span><span>TypeScript</span><span>Node.js</span><span>Express.js</span><span>PostgreSQL</span><span>WebRTC</span><span>Gemini API</span><span>Solidity</span>
+                            </div>
+                            <ul class="project-bullets">
+                                <li>Built a full-stack decentralized skill-exchange platform supporting 100+ active users with real-time chat and video communication.</li>
+                                <li>Designed and implemented a skill-based matching engine using 10+ user attributes to improve mentor-learner discovery and engagement.</li>
+                                <li>Integrated WebRTC and Socket.IO for low-latency messaging and video calls; developed Solidity smart contracts for reputation verification.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">Event Management Website</h3>
+                        </div>
+                        <div class="project-inner-content">
+                            <h4 class="project-subtitle">Inter-College Platform</h4>
+                            <div class="project-tech">
+                                <span>React.js</span><span>PostgreSQL</span><span>SMTP</span><span>OAuth</span><span>OpenAI API</span>
+                            </div>
+                            <ul class="project-bullets">
+                                <li>Designed, developed, and deployed a web-based event registration system supporting 2,500+ users.</li>
+                                <li>Implemented OTP-based email authentication to prevent fake registrations and improve data accuracy.</li>
+                                <li>Automated unique registration ID generation and digital pass distribution via WhatsApp integration.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Research & Innovation Section -->
+        <section class="section" id="innovation">
+            <div class="container">
+                <!-- Top Header -->
+                <div class="section-clean-header">
+                    <h2 class="clean-header-title">Research & Innovation</h2>
+                    <div class="clean-header-underline"></div>
+                </div>
+                
+                <div class="innovation-grid">
+                    
+                    <div class="innovation-card">
+                        <div class="inno-icon-wrapper">
+                            <i class="fas fa-file-signature"></i>
+                        </div>
+                        <div class="inno-text">
+                            <h3 class="inno-title">Patent Filed</h3>
+                            <h4 class="inno-subtitle">Skill-Matching Engine</h4>
+                            <p class="inno-desc">Filed a formal patent application for the proprietary skill-based matching algorithm and reputation verification system developed for the BlockLearn decentralized platform.</p>
+                        </div>
+                    </div>
+
+                    <div class="innovation-card">
+                        <div class="inno-icon-wrapper">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <div class="inno-text">
+                            <h3 class="inno-title">Research Paper</h3>
+                            <h4 class="inno-subtitle">ICRET 2026 Conference</h4>
+                            <p class="inno-desc">Presented the research paper and technical architecture of "FarmConnect: An Intelligent Yield Forecasting and Secure Farm-to-Fork Tracking Framework" to an international panel of academic and industry experts.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section" id="education">
+            <div class="container">
+                <!-- Top Header -->
+                <div class="section-clean-header">
+                    <h2 class="clean-header-title">ACADEMIC JOURNEY</h2>
+                    <div class="clean-header-underline"></div>
+                </div>
+                
+                <div class="education-container">
+                    
+                    <!-- B.E. -->
+                    <div class="education-glass-card">
+                        <div class="edu-year-badge">
+                            <i class="fas fa-user-graduate"></i>
+                            <div class="year">2023 – 2027</div>
+                        </div>
+                        <div class="edu-details">
+                            <h3 class="edu-title">Bachelor of Engineering</h3>
+                            <h4 class="edu-course">Computer Science Engineering</h4>
+                            <p class="edu-university">Visvesvaraya Technological University (VTU)</p>
+                            <p class="edu-college">Sai Vidya Institute of Technology, Bengaluru</p>
+                            <div class="edu-score">
+                                <i class="fas fa-chart-line" style="color: #00d2ff;"></i> CGPA: 8.9 / 10
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- XII block removed as per user request -->
+
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section class="section" id="achievements">
+            <div class="container">
+                <!-- Top Header -->
+                <div class="section-clean-header">
+                    <h2 class="clean-header-title">ACHIEVEMENTS & LEADERSHIP</h2>
+                    <div class="clean-header-underline"></div>
+                </div>
+                <div class="achievement-tree">
+                    <!-- Central Stem -->
+                    <div class="tree-stem"></div>
+                    
+                    <!-- Branch 1 (Left) -->
+                    <div class="tree-branch left">
+                        <div class="tree-node"><i class="fas fa-trophy"></i></div>
+                        <div class="tree-content">
+                            <h3 class="tree-title">Smart India Hackathon 2025</h3>
+                            <p class="tree-desc">College-Level Finalist; contributed to a centralized digital credential aggregation system with secure verification.</p>
+                        </div>
+                    </div>
+
+
+                    <!-- Branch 3 (Left) -->
+                    <div class="tree-branch left">
+                        <div class="tree-node"><i class="fas fa-medal"></i></div>
+                        <div class="tree-content">
+                            <h3 class="tree-title">National-Level Taekwondo</h3>
+                            <p class="tree-desc">Gold Medalist in Championship.</p>
+                        </div>
+                    </div>
+
+                    <!-- Branch 4 (Right) -->
+                    <div class="tree-branch right">
+                        <div class="tree-node"><i class="fas fa-users"></i></div>
+                        <div class="tree-content">
+                            <h3 class="tree-title">Rotaract Club of SVIT</h3>
+                            <p class="tree-desc"><strong>Sergeant-at-Arms:</strong> Coordinated meetings, events, and member engagement.</p>
+                        </div>
+                    </div>
+
+                    <!-- Branch 5 (Left) -->
+                    <div class="tree-branch left">
+                        <div class="tree-node"><i class="fas fa-laptop-code"></i></div>
+                        <div class="tree-content">
+                            <h3 class="tree-title">Coding Club SVIT</h3>
+                            <p class="tree-desc"><strong>Social Media Lead:</strong> Created digital content and grew participation in technical events.</p>
+                        </div>
+                    </div>
+
+                    <!-- Branch 6 (Right) -->
+                    <div class="tree-branch right">
+                        <div class="tree-node"><i class="fas fa-user-tie"></i></div>
+                        <div class="tree-content">
+                            <h3 class="tree-title">SVIT Placement Cell</h3>
+                            <p class="tree-desc"><strong>Student Placement Coordinator:</strong> Assisted with campus recruitment drives and assessments.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section class="section" id="contact">
+            <div class="container">
+                <!-- Top Header -->
+                <div class="section-clean-header">
+                    <h2 class="clean-header-title">GET IN TOUCH</h2>
+                    <div class="clean-header-underline"></div>
+                </div>
+                <div class="contact-subtitle">
+                    ALWAYS OPEN TO NEW OPPORTUNITIES AND EXCITING COLLABORATIONS.
+                </div>
+                
+                <div class="contact-card">
+                    <h3 class="contact-card-name">Shankar Shivalingesh Belavi</h3>
+                    <div class="contact-card-location">
+                        <i class="fas fa-map-marker-alt"></i> Bengaluru, India
+                    </div>
+                    <a href="mailto:shankarbelavi30@gmail.com" class="contact-card-btn">
+                        <i class="fas fa-paper-plane"></i> SEND MESSAGE
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
