@@ -1,6 +1,6 @@
 ## 🌐 Live Portfolio
 
-🚀 **Vercel Portfolio:** [Visit My Portfolio](https://shankar-belavi-porfolio.vercel.app)
+🚀 **Vercel Portfolio:** [Visit My Portfolio]([https://shankar-belavi-porfolio.vercel.app](https://shankar-belavi-portfolio.vercel.app/))
 
 🌍 **GitHub Pages:** [View Portfolio on GitHub Pages](https://shankarbelavi.github.io/portfolio/)
 
